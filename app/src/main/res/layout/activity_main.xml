@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.electricsqueeze.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:layout_weight="4"
+        android:src="@drawable/electricsqueezeearly" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#1a1a1a"
+        android:textColor="#fff21a"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="The Electric Squeeze - Music Life Is!" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#1a1a1a"
+        android:textColor="#fff21a"
+        android:gravity="center"
+        android:text="Contact: electricsqueezesmith@gmail.com" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#1a1a1a"
+        android:textColor="#fff21a"
+        android:gravity="center"
+        android:text="2000 Anywhere St., But Here, D.C. 20001" />
+</LinearLayout>
